@@ -191,11 +191,11 @@ fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
     
     @objc public func saveData(_ dataString: NSString, toFile: String)
     {
-        do {
-            try dataString.write(toFile: toFile, atomically: false, encoding: String.Encoding.utf8.rawValue)
-        } catch {
-            print("catch !!!")
-        }
+//        do {
+//            try dataString.write(toFile: toFile, atomically: false, encoding: String.Encoding.utf8.rawValue)
+//        } catch {
+//            print("catch !!!")
+//        }
     }
     
     @objc public func readRawData(_ fromFile: String) -> Data?
